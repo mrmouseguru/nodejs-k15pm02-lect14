@@ -10,6 +10,8 @@ const main = async () =>{
 
    console.log(docs);
 
+   await myColl.insertOne({classCode : "K15pm02", year : 2024});
+
 
 };
 
